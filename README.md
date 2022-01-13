@@ -114,7 +114,7 @@ You need to submit one/two Ipython notebook which clearly explains the thought p
 |--   app
 |     |-- Readme.md 
 |     |-- notebooks -- main.py <-This is the main python jupyter notebook where execution of project starts
-|     |-- data
+|     |-- data <-- If this folder is missing than data files are larger than 100mb and we have to use GIT LFS
 |          |-- raw -- application_data.csv and previous_application.csv <- This has input data for the project
 |     |-- references <- This has Data dictionaries, manuals, and all other explanatory materials.
 |     |-- reports <- Generated analysis as HTML, PDF, LaTeX, etc.
